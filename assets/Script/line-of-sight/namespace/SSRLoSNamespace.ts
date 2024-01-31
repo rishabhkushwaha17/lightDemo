@@ -23,85 +23,20 @@
  THE SOFTWARE.
  ****************************************************************************/
 
-export var ssr = ssr || {};
-
-/**
- * LoS Namespace
- * @namespace
- */
-ssr.LoS = ssr.LoS || {};
-
-/**
- * LoS Helper Namespace
- * @namespace
- */
-ssr.LoS.Helper = ssr.LoS.Helper || {};
-
-/**
- * LoS Render Helper Namespace
- * @namespace
- */
-ssr.LoS.Render = ssr.LoS.Render || {};
-
-/**
- * LoS Component Namespace
- * @namespace
- */
-ssr.LoS.Component = ssr.LoS.Component || {};
-
-/**
- * LoS Constant Namespace
- * @namespace
- */
-ssr.LoS.Constant = ssr.LoS.Constant || {};
-
-/**
- * LoS Data Namespace
- * @namespace
- */
-ssr.LoS.Data = ssr.LoS.Data || {};
-
-/**
- * LoS Config Namespace
- * @namespace
- */
-ssr.LoS.Config = ssr.LoS.Config || {};
-
-/**
- * LoS Strategy Namespace
- * @namespace
- */
-ssr.LoS.Strategy = ssr.LoS.Strategy || {};
-
-/**
- * LoS Culling Strategy Namespace
- * @namespace
- */
-ssr.LoS.Strategy.Culling = ssr.LoS.Strategy.Culling || {};
-
-/**
- * LoS PreProcess Strategy Namespace
- * @namespace
- */
-ssr.LoS.Strategy.PreProcess = ssr.LoS.Strategy.PreProcess || {};
-
-/**
- * LoS Process Strategy Namespace
- * @namespace
- */
-ssr.LoS.Strategy.Process = ssr.LoS.Strategy.Process || {};
-
-/**
- * LoS PostProcess Strategy Namespace
- * @namespace
- */
-ssr.LoS.Strategy.PostProcess = ssr.LoS.Strategy.PostProcess || {};
-
-/**
- * LoS Tool Strategy Namespace
- * @namespace
- */
-ssr.LoS.Strategy.Tool = ssr.LoS.Strategy.Tool || {};
-
-
-
+export class ssr {
+    public LoS = {
+        Helper: {}
+        Render: {}
+ Component: {}
+ Constant: {}
+ Data: {}
+ Config: {}
+ Strategy: {
+            Culling: {}
+     PreProcess: {}
+     Process: {}
+     PostProcess: {}
+     Tool: {}
+        }
+    }
+}
